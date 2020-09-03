@@ -2,17 +2,14 @@
     "enabled": true,
     "coin": "ravencoin.json",
 
-    "address": "RKopFydExeQXSZZiSTtg66sRAWvMzFReUj",
+    "address": "n3XxbBGtszRnqEHdRof7rBXYD4SotEpEXq",
+    "donateaddress": "RKvdM7TLMSRQpC3rXMegRrzwUEbv61zbg3",
     
-    "donateaddress": "RL5SUNMHmjXtN1AzCRFQrFEhjnf7QQY7Tz",
-
     "rewardRecipients": {
-        "RL5SUNMHmjXtN1AzCRFQrFEhjnf7QQY7Tz": 0.5,
-        "Ta26x9axaDQWaV2bt2z8Dk3R3dN7gHw9b6": 0
     },
 
     "paymentProcessing": {
-        "enabled": true,
+        "enabled": false,
         "schema": "PROP",
         "paymentInterval": 300,
         "minimumPayment": 0.25,
@@ -20,53 +17,34 @@
         "minConf": 30,
         "coinPrecision": 8,
         "daemon": {
-            "host": "127.0.0.1",
-            "port": 8766,
-            "user": "user1",
-            "password": "pass1"
+            "host": "beta.cruxpool.com",
+            "port": 28767,
+            "user": "user",
+            "password": "password"
         }
     },
 
     "ports": {
-	"10008": {
-            "diff": 2,
-    	    "varDiff": {
-    	        "minDiff": 1,
-    	        "maxDiff": 16,
-    	        "targetTime": 10,
-    	        "retargetTime": 60,
-    	        "variancePercent": 30,
-    		    "maxJump": 25
-    	    }
-        },
-        "10032": {
+        "1112":
+        {
+            "diff": 0.5,
             "varDiff": {
-                "minDiff": 0.04,
-                "maxDiff": 16,
-    	        "targetTime": 10,
-    	        "retargetTime": 60,
-    	        "variancePercent": 30,
-		        "maxJump": 25
+                "minDiff": 0.5,
+                "maxDiff": 0.5,
+                "targetTime": 10,
+                "retargetTime": 60,
+                "variancePercent": 30,
+                "maxJump": 25
             }
-        },
-        "10256": {
-		    "varDiff": {
-    			"minDiff": 1000,
-    			"maxDiff": 9000,
-    	        "targetTime": 10,
-    	        "retargetTime": 60,
-    	        "variancePercent": 30,
-    			"maxJump": 50
-    		}
         }
     },
 
     "daemons": [
         {
-            "host": "127.0.0.1",
-            "port": 8766,
-            "user": "user1",
-            "password": "pass1"
+            "host": "localhost",
+            "port": 28767,
+            "user": "",
+            "password": ""
         }
     ],
 
