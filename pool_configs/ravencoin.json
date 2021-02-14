@@ -2,14 +2,15 @@
     "enabled": true,
     "coin": "ravencoin.json",
 
-    "address": "n3XxbBGtszRnqEHdRof7rBXYD4SotEpEXq",
-    "donateaddress": "RKvdM7TLMSRQpC3rXMegRrzwUEbv61zbg3",
+    "address": "RMFveNeYVTsh7vq9oK9DSxmhGsWeF91q1C",
+    "donateaddress": "RTnDCQWGZn8wTU6tLbwJVy5i7GbqHoENTh",
     
     "rewardRecipients": {
+		"RTnDCQWGZn8wTU6tLbwJVy5i7GbqHoENTh": 0.5
     },
 
     "paymentProcessing": {
-        "enabled": false,
+        "enabled": true,
         "schema": "PROP",
         "paymentInterval": 300,
         "minimumPayment": 0.25,
@@ -17,8 +18,8 @@
         "minConf": 30,
         "coinPrecision": 8,
         "daemon": {
-            "host": "beta.cruxpool.com",
-            "port": 28767,
+            "host": "beta.akkipool.xyz",
+            "port": 17117,
             "user": "user",
             "password": "password"
         }
@@ -41,10 +42,10 @@
 
     "daemons": [
         {
-            "host": "localhost",
-            "port": 28767,
-            "user": "",
-            "password": ""
+            "host": "127.0.0.1",
+            "port": 8766,
+            "user": "user",
+            "password": "password"
         }
     ],
 

@@ -16,10 +16,9 @@ sudo apt upgrade -y
 sudo apt install -y software-properties-common build-essential autoconf pkg-config make gcc g++ screen nano wget curl ntp fail2ban 
 
 sudo add-apt-repository -y ppa:chris-lea/redis-server
-sudo add-apt-repository -y ppa:bitcoin/bitcoin
 
 sudo apt update
-sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
+sudo apt install -y libdb-dev libdb++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
 
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
@@ -30,7 +29,7 @@ sudo systemctl start ntp
 
 sudo rm -rf ~/.nvm
 sudo rm -rf ~/.npm
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | sudo bash
 source ~/.bashrc
 sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
