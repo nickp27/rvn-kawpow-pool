@@ -19,7 +19,7 @@ echo "Script name : $SCRIPTNAME"
 echo "Current working dir : $PWD"
 echo "Script location path (dir) : $BASEDIR"
 echo ""
-sudo setcap 'cap_net_bind_service=+ep' ~/.nvm/versions/node/v8.1.4/bin/node
+sudo setcap 'cap_net_bind_service=+ep' ~/.nvm/versions/node/v15.8.0/bin/node
 
 node init.js
 
