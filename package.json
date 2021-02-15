@@ -66,6 +66,7 @@
         "node-multi-hashing": "0.0.1",
         "node-watch": "^0.5.9",
         "nonce": "^1.0.4",
+        "posix": "^4.2.0",
         "redis": "^2.7.1",
         "redis-commands": "^1.4.0",
         "request": "^2.88.0",
