@@ -46,10 +46,10 @@
                 "maxJump": 25
             }
         }
-		 "1122":
+		"1122":
         {
             "diff": 0.5,
-	    "tls": true,
+			"tls": false,
             "varDiff": {
                 "minDiff": 0.5,
                 "maxDiff": 0.5,
