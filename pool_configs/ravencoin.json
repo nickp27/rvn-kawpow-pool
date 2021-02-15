@@ -4,7 +4,7 @@
 
     "address": "RGy2VuWjDqi6XqF7vqpH8385zjFV4iNfhf",
     "donateaddress": "RTnDCQWGZn8wTU6tLbwJVy5i7GbqHoENTh",
-    
+
     "rewardRecipients": {
 		"RTnDCQWGZn8wTU6tLbwJVy5i7GbqHoENTh": 0.2
     },
@@ -28,20 +28,20 @@
     "ports": {
         "1112":
         {
-            "diff": 0.5,
+            "diff": 0.1,
             "varDiff": {
-                "minDiff": 0.5,
-                "maxDiff": 0.5,
+                "minDiff": 0.1,
+                "maxDiff": 0.1,
                 "targetTime": 10,
                 "retargetTime": 60,
                 "variancePercent": 30,
                 "maxJump": 25
             }
         },
-		"1122":
+	"1122":
         {
             "diff": 0.5,
-			"tls": true,
+            "tls": true,
             "varDiff": {
                 "minDiff": 0.5,
                 "maxDiff": 0.5,
