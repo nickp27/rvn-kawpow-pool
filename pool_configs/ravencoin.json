@@ -25,14 +25,6 @@
         }
     },
 
-	"tlsOptions": {
-		"enabled": true,
-		"serverKey":"/etc/letsencrypt/live/akkipool.xyz/privkey.pem",
-		"serverCert":"/etc/letsencrypt/live/akkipool.xyz/fullchain.pem",
-		"ca": "/etc/letsencrypt/live/akkipool.xyz/cert.pem"
-
-    },
-
     "ports": {
         "1112":
         {
@@ -49,7 +41,7 @@
 		"1122":
         {
             "diff": 0.5,
-			"tls": false,
+			"tls": true,
             "varDiff": {
                 "minDiff": 0.5,
                 "maxDiff": 0.5,
