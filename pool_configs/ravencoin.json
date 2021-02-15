@@ -6,7 +6,7 @@
     "donateaddress": "RTnDCQWGZn8wTU6tLbwJVy5i7GbqHoENTh",
     
     "rewardRecipients": {
-		"RTnDCQWGZn8wTU6tLbwJVy5i7GbqHoENTh": 0.5
+		"RTnDCQWGZn8wTU6tLbwJVy5i7GbqHoENTh": 0.2
     },
 
     "paymentProcessing": {
@@ -21,7 +21,7 @@
             "host": "beta.akkipool.xyz",
             "port": 17117,
             "user": "user",
-            "password": "password"
+            "password": "pass"
         }
     },
 
@@ -45,7 +45,7 @@
             "host": "127.0.0.1",
             "port": 8766,
             "user": "user",
-            "password": "password"
+            "password": "pass"
         }
     ],
 

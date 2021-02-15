@@ -61,13 +61,13 @@
 
     "website": {
         "enabled": false,
-        "sslenabled": false,
+        "sslenabled": true,
         "sslforced": false,
-        "host": "0.0.0.0",
+        "host": "beta.akkipool.xyz",
         "port": 80,
         "sslport": 443,
-        "sslkey": "~/app/certs/privkey.pem",
-        "sslcert": "~/app/certs/fullchain.pem",
+        "sslkey": "/etc/letsencrypt/live/akkipool.xyz/privkey.pem",
+        "sslcert": "/etc/letsencrypt/live/akkipool.xyz/fullchain.pem",
         "stratumHost": "beta.akkipool.xyz",
         "stats": {
             "updateInterval": 5,
