@@ -1,18 +1,15 @@
 #!/bin/sh
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 echo ""
 echo "Raven Pool Starting..."
 echo ""
-cd /app
 
 source ~/.bashrc
 source /etc/os-release
 
 ## who am i? ##
 SCRIPTNAME="$(readlink -f ${BASH_SOURCE[0]})"
-BASEDIR="/app"
+BASEDIR="$(dirname $SCRIPTNAME)"
 
 ## Okay, print it ##
 echo "Script name : $SCRIPTNAME"
