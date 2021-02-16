@@ -28,10 +28,10 @@
     "ports": {
         "1112":
         {
-            "diff": 0.1,
+            "diff": 0.5,
             "varDiff": {
                 "minDiff": 0.1,
-                "maxDiff": 0.1,
+                "maxDiff": 16,
                 "targetTime": 10,
                 "retargetTime": 60,
                 "variancePercent": 30,
