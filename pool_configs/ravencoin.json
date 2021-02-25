@@ -32,7 +32,7 @@
             "varDiff": {
                 "minDiff": 0.1,
                 "maxDiff": 16,
-                "targetTime": 10,
+                "targetTime": 60,
                 "retargetTime": 60,
                 "variancePercent": 30,
                 "maxJump": 25
@@ -40,12 +40,12 @@
         },
 	"1122":
         {
-            "diff": 0.5,
-            "tls": true,
+            "diff": 4.0,
+            "tls": false,
             "varDiff": {
-                "minDiff": 0.5,
-                "maxDiff": 0.5,
-                "targetTime": 10,
+                "minDiff": 1,
+                "maxDiff": 16,
+                "targetTime": 60,
                 "retargetTime": 60,
                 "variancePercent": 30,
                 "maxJump": 25
